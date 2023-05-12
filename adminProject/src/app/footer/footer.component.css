@@ -1,0 +1,12 @@
+.footer{
+    background-color: #3F51B5;
+    width: 1920px;
+    height: 60px;
+    position: absolute;
+    margin-top: 853px;
+}
+.text{
+    color: white;
+    margin-top: 9px;
+    margin-left: 1600px;
+}

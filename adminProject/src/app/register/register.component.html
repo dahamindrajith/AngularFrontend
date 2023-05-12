@@ -1,0 +1,30 @@
+<div class="bckgrnd"></div>
+<div class="registr">
+  <div class="row col-md-6">
+    <mat-form-field appearance="fill">
+      <mat-label>Full Name</mat-label>
+      <input [(ngModel)]="employee.name" matInput />
+    </mat-form-field>
+  </div>
+  <div class="row col-md-6">
+    <mat-form-field appearance="fill">
+      <mat-label>E-mail</mat-label>
+      <input [(ngModel)]="employee.email" type="email" matInput />
+    </mat-form-field>
+  </div>
+  <div class="row col-md-6">
+    <mat-form-field appearance="fill">
+      <mat-label>Password</mat-label>
+      <input [(ngModel)]="employee.password" type="password" matInput />
+    </mat-form-field>
+  </div>
+  <div class="row col-md-6">
+    <mat-form-field appearance="fill">
+      <mat-label>Confirm Password</mat-label>
+      <input [(ngModel)]="employee.confirmPassword" type="password" matInput />
+    </mat-form-field>
+  </div>
+</div>
+<div class="btn">
+    <button mat-raised-button color="primary" (click)="registerUser()">Register</button>
+  </div>

@@ -1,0 +1,19 @@
+<div class="container">
+  <table class="table table-striped table-hover table-bordered table-responsive" style="position: relative; font-size:15px;">
+    <thead>
+        <tr class="label-primary">
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let data of employee">
+            <td>{{data.name}}</td>
+            <td>{{data.email}}</td>
+        </tr>
+
+    </tbody>
+</table>
+</div>
+  

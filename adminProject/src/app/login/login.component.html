@@ -1,0 +1,19 @@
+<div class="bckgrd"></div>
+<div class="body">
+  <div class="row col-md-6">
+  <mat-form-field appearance="fill">
+    <mat-label>User Name</mat-label>
+    <input [(ngModel)]="employee.name" matInput />
+  </mat-form-field>
+</div>
+<div class="row col-md-6">
+  <mat-form-field appearance="fill">
+    <mat-label>Password</mat-label>
+    <input [(ngModel)]="employee.password" type="password" matInput />
+  </mat-form-field>
+</div>
+</div>
+<div class="btn">
+  <button mat-raised-button color="primary" (click)="loginUser()">Login</button>
+</div>
+
